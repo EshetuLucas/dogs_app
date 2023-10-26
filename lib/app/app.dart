@@ -6,6 +6,7 @@ import 'package:dogs_app/ui/views/show_full_image/show_full_image_view.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:dogs_app/ui/views/startup/startup_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -16,6 +17,7 @@ import 'package:stacked_services/stacked_services.dart';
       // maintainState: false,
       transitionsBuilder: TransitionsBuilders.fadeIn,
     ),
+MaterialRoute(page: StartupView),
 // @stacked-route
   ],
   dependencies: [

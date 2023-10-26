@@ -2,7 +2,7 @@ import 'package:dogs_app/app/app.bottomsheets.dart';
 import 'package:dogs_app/app/app.locator.dart';
 import 'package:dogs_app/app/app.router.dart';
 import 'package:dogs_app/ui/common/theme_class.dart';
-import 'package:dogs_app/ui/views/dogs/dogs_view.dart';
+import 'package:dogs_app/ui/views/startup/startup_view.dart';
 import 'package:flutter/material.dart';
 import 'package:dogs_app/ui/common/app_colors.dart';
 import 'package:flutter/services.dart';
@@ -68,7 +68,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
           statusBarIconBrightness: Brightness.light, // For Android (dark icons)
           statusBarBrightness: Brightness.dark, // For iOS (dark icons)
         ),
-        child: DogsView(),
+        child: StartupView(),
       ),
       onGenerateRoute: StackedRouter().onGenerateRoute,
       navigatorKey: StackedService.navigatorKey,

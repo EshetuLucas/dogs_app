@@ -3,7 +3,7 @@
 This app uses the Stacked state management architecture.
 The folders are organized as follows, and each folder has its own README.md file:
 
- - lib
+- lib
     - api
        - common
        - endpoint specific folders (dogs_api, users_api)
@@ -25,7 +25,16 @@ The folders are organized as follows, and each folder has its own README.md file
 
 
 
+
+
 ## Requirements
+
+- .env file: create a file called .env in the root folder and add base env vairables
+
+   Why are we using env file?
+    This file stores sensitive information like, API keys, database passwords,
+     base urls, and other configurations. These variables will not expose.
+
 
 The following requirements must be installed in your environment before continuing:
 
@@ -34,6 +43,8 @@ The following requirements must be installed in your environment before continui
 - IDE: [Visual Studio Code](https://code.visualstudio.com/download)
 - Source Control: [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - CLI: [GitHub](https://cli.github.com/)
+
+
 
 
 To get started all you have to do is run the following commands.
